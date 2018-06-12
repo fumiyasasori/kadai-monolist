@@ -46,7 +46,6 @@ class ItemUserController extends Controller
         }
         return redirect()->back();
     }
-    
     public function have()
     {
         $itemCode = request()->itemCode;
